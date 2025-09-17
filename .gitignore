@@ -1,0 +1,27 @@
+# Diretórios do Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de estado do Terraform
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Planos locais
+*.tfplan
+
+# Variáveis sensíveis
+*.tfvars
+*.tfvars.json
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Config pessoal do VSCode / IDE
+.vscode/
+.idea/
